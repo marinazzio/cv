@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "title": "Denis Kiselyov -- Resume",
+    "description": "Description"
+  },
+  "cv-header": {
+    "name": "Denis Kiselyov"
+  },
+  "contacts": {
+    "phone": "+66 61 265 9475",
+    "phoneLabel": "Phone"
+  },
+  "education": {
+    "institution": "Moscow State Open University",
+    "start-year": "2002",
+    "finish-year": "2008",
+    "degree": "Master's Degree",
+    "specialization": "Computer Science"
+  },
+  "areas-of-expertise": {
+    "title": "AREAS OF EXPERTISE"
+  },
+  "experience": {
+    "title": "Experience",
+    "jobs": [
+      {
+        "position": "Senior Software Engineer",
+        "company": "PosiTrace (Global Fleet Management)",
+        "start-year": "2024",
+        "start-month": "January",
+        "finish-year": "2024",
+        "finish-month": "June",
+        "responsibilities": [
+          "Magnify and maintain significantly the legacy vehicle tracking and management platform, using Ruby on Rails, Angular, MySQL leading to peak performance.",
+          "Enhance platform reliability by successfully overcoming legacy architectural limitations.",
+          "Strengthen integration and ensuring seamless data flow with the use of third-party systems such as HubSpot, Apollo, and QuickBooks.",
+          "Lead comprehensive testing and quality assurance to deliver robust integrations.",
+          "Deliver expert technical support, effectively resolving issues to ensure uninterrupted and smooth operations.",
+          "Promote ongoing enhancements and a markedly improved user experience by using appropriate documentation procedures and best practices."
+        ]
+      },
+      {
+        "position": "Senior Software Engineer",
+        "company": "Uchi.ru (VK.com subsidiary)",
+        "start-year": "2022",
+        "start-month": "August",
+        "finish-year": "2024",
+        "finish-month": "January",
+        "responsibilities": [
+          "Improved the functionality and scalability of a large-scale micro services-based online educational platform, playing a pivotal role in the successful development process.",
+          "Refactored the code base extensively which led to performance enhancement and maintainability",
+          "Designed and managed efficient micro services handling diverse product functionalities using Ruby on Rails, PostgreSQL, Apache Kafka, GraphQL, gRPC, Docker, and GitHub Workflow."
+        ]
+      },
+      {
+        "position": "Lead Software Engineer",
+        "company": "Luxoft (DXC Technology)",
+        "start-year": "2021",
+        "start-month": "June",
+        "finish-year": "2022",
+        "finish-month": "May",
+        "responsibilities": [
+          "Oversaw the creation of an all-encompassing web system that replaced Atlassian products including Bitbucket, Confluence, and Jira, improving productivity.",
+          "Conducted a thorough analysis to understand business requirements and developed extremely effective development procedures, leading to seamles workflows and quicker project completion.",
+          "Created a proof of concept for the main customer, delivering all initial project phases on time using Atlassian Confluence, Atlassian Jira, GitLab, GitLab CI/CD, GraphQL, PostgreSQL, Ruby, and Ruby on Rails."
+        ]
+      },
+      {
+        "position":"Lead Software Engineer",
+        "company": "Interfax",
+        "start-year": "2017",
+        "start-month": "February",
+        "finish-year": "2021",
+        "finish-month": "June",
+        "responsibilities": [
+          "Restructured legacy code extensively, improving performance and streamlining workflows to successfully address productivity challenges.",
+          "Championed architectural solutions, oversaw crucial technical choices, and trained junior developers, all of which contributed to the implementation of creative and scalable projects.",
+          "Developed and published Ruby libraries, actively enriching the open-source community and fostering collaborative innovation in software development.",
+          "Utilized technologies like Docker, Elastic Stack, GitLab, Machine Learning, MySQL, PostgreSQL, React, Redis, Ruby, and Ruby on Rails to deliver cutting-edge solutions."
+        ]
+      },
+      {
+        "position": "Lead Software Engineer",
+        "company": "Med-Media",
+        "start-year": "2010",
+        "start-month": "February",
+        "finish-year": "2017",
+        "finish-month": "February",
+        "responsibilities": [
+          "Effectively reverse engineered medportal.ru to create a proprietary in-house codebase, allowing a smooth transition from a CMS to maximized control and performance.",
+          "Refined platform performance and scalability by leading the creation of robust functionality using PHP and MySQL, followed by a transfer to Ruby on Rails with PostgreSQL.",
+          "Guided project development and technical decision-making to closely match company aims and guarantee the accomplishment of important strategic objectives."
+        ]
+      },
+      {
+        "position": "Lead Software Engineer",
+        "company": "Maxwell Capital LLC",
+        "start-year": "2006",
+        "start-month": "May",
+        "finish-year": "2010",
+        "finish-month": "January",
+        "responsibilities": [
+          "Engineered a tailored back-office software solution for investment and brokerage firms leveraging C# .NET and MS SQL, delivering unparalleled efficiency and functionality.",
+          "Advanced smooth cooperation and company expansion by overseeing and carrying out the full project lifecycle, including the creation of a corresponding website to support a large network of partners using ASP.NET."
+        ]
+      },
+      {
+        "position": "Software Engineer",
+        "company": "Mobinetix",
+        "start-year": "2003",
+        "start-month": "October",
+        "finish-year": "2006",
+        "finish-month": "May",
+        "responsibilities": [
+          "Developed a cutting-edge car tracking and monitoring system that includes robust server-side apps written in C#.NET and a Java ME application for mobile devices, improving operational efficiency and real-time tracking capabilities."
+        ]
+      },
+      {
+        "position": "Software Engineer",
+        "company": "Infolink",
+        "start-year": "1998",
+        "start-month": "August",
+        "finish-year": "2003",
+        "finish-month": "August",
+        "responsibilities": [
+          "Increased operational efficiency and reduced manual workload, automating critical business processes with C++ and Shell Scripting, optimizing the management of paging communication equipment, customer databases, and ISP services."
+        ]
+      },
+      {
+        "position": "Database Administrator",
+        "company": "Mobil Telekom",
+        "start-year": "1998",
+        "start-month": "January",
+        "finish-year": "1998",
+        "finish-month": "June",
+        "responsibilities": [
+          "Ensured high availability and reliability by expertly administering and maintaining client databases and paging communication equipment."
+        ]
+      },
+      {
+        "position": "Laboratory Assistant",
+        "company": "Chuvash State University",
+        "start-year": "1997",
+        "start-month": "January",
+        "finish-year": "1997",
+        "finish-month": "June",
+        "responsibilities": [
+          "Guaranteed optimal performance of laboratory equipment through meticulous maintenance and delivered expert technical support."
+        ]
+      }
+    ]
+  }
+}

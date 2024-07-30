@@ -1,0 +1,21 @@
+{
+    "contacts": {
+        "email": "denis.kiselyov@gmail.com",
+        "linkedIn": "https://www.linkedin.com/in/denis-s-kiselev/"
+    },
+    "areas-of-expertise": [
+        "Software Architecture & Design",
+        "Ruby & Ruby on Rails",
+        "Java & Spring Framework",
+        "Full-Stack Development",
+        "Agile Methodologies & Scrum",
+        "Cloud Computing (AWS, Azure, GCP)",
+        "DevOps Practices (CI/CD, Docker, Kubernetes)",
+        "Database Management (PostgreSQL, MySQL, SQL Server, MongoDB)",
+        "System Integration & API Development",
+        "Team Leadership & Mentorship",
+        "Financial Instruments & Trading Workflows",
+        "Legacy Code Refactoring & Optimization",
+        "Quality Assurance & Testing"
+    ]
+}
