@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postinstall": "node patch-ironpdf.js"
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "0.2.32",
