@@ -6,6 +6,8 @@ import { i18n } from "./i18n-config";
 import { match as matchLocale } from "@formatjs/intl-localematcher";
 import Negotiator from "negotiator";
 
+const PATH_PREFIX = process.env.PATH_PREFIX || "/";
+
 function getLocale(request: NextRequest): string | undefined {
   const negotiatorHeaders: Record<string, string> = {};
   request.headers.forEach((value, key) => (negotiatorHeaders[key] = value));
@@ -23,7 +25,11 @@ function getLocale(request: NextRequest): string | undefined {
 }
 
 export function middleware(request: NextRequest) {
-  const pathname = request.nextUrl.pathname;
+  let pathname = request.nextUrl.pathname;
+
+  if (pathname.startsWith(PATH_PREFIX)) {
+    pathname = pathname.slice(PATH_PREFIX.length) || '/';
+  }
 
   if (
     [
@@ -49,6 +55,9 @@ export function middleware(request: NextRequest) {
       ),
     );
   }
+
+  request.nextUrl.pathname = pathname;
+  return NextResponse.next();
 }
 
 export const config = {
