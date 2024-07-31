@@ -1,6 +1,4 @@
-import { NextResponse } from "next/server";
-import type { NextRequest } from "next/server";
-
+import { NextRequest, NextResponse } from "next/server";
 import { i18n } from "./i18n-config";
 
 import { match as matchLocale } from "@formatjs/intl-localematcher";
@@ -27,9 +25,20 @@ function getLocale(request: NextRequest): string | undefined {
 export function middleware(request: NextRequest) {
   let pathname = request.nextUrl.pathname;
 
+  const response = NextResponse.next();
+  response.headers.set('X-Incoming-Path', pathname);
+  const debugParams = new URLSearchParams();
+  debugParams.set('incomingPath', pathname);
+
+  console.log(`Incoming request path: ${pathname}`);
+
   if (pathname.startsWith(PATH_PREFIX)) {
     pathname = pathname.slice(PATH_PREFIX.length) || '/';
   }
+
+  response.headers.set('X-Modified-Path', pathname);
+  debugParams.set('modifiedPath', pathname);
+  console.log(`Modified request path: ${pathname}`);
 
   if (
     [
@@ -48,12 +57,14 @@ export function middleware(request: NextRequest) {
   if (pathnameIsMissingLocale) {
     const locale = getLocale(request);
 
-    return NextResponse.redirect(
-      new URL(
-        `/${locale}${pathname.startsWith("/") ? "" : "/"}${pathname}`,
-        request.url,
-      ),
+    const redirectUrl = new URL(
+      `/${locale}${pathname.startsWith("/") ? "" : "/"}${pathname}`,
+      request.url,
     );
+
+    redirectUrl.search = debugParams.toString();
+
+    return NextResponse.redirect(redirectUrl);
   }
 
   request.nextUrl.pathname = pathname;
