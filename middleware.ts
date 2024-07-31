@@ -40,6 +40,27 @@ export function middleware(request: NextRequest) {
   debugParams.set('modifiedPath', pathname);
   console.log(`Modified request path: ${pathname}`);
 
+  const redirectUrl = new URL(
+    `/en${pathname.startsWith("/") ? "" : "/"}${pathname}`,
+    request.url,
+  );
+
+  redirectUrl.search = debugParams.toString();
+
+  return new NextResponse(
+    JSON.stringify({
+      message: 'Redirecting to locale',
+      redirectUrl: redirectUrl.toString(),
+      incomingPath: pathname,
+      modifiedPath: pathname,
+    }),
+    {
+      status: 200,
+      headers: { 'Content-Type': 'application/json' },
+    }
+  );
+
+
   if (
     [
       '/manifest.json',
