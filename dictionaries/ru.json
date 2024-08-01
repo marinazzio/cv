@@ -1,151 +1,164 @@
 {
   "meta": {
-    "title": "Denis Kiselyov -- Resume",
-    "description": "Description"
+    "title": "Денис Киселёв -- Резюме",
+    "description": ""
   },
   "cv-header": {
-    "name": "Denis Kiselyov"
+    "name": "Денис Киселёв"
   },
   "contacts": {
-    "phone": "+66 61 265 9475",
-    "phoneLabel": "Phone"
+    "phone": "+7 916 942 1935",
+    "phoneLabel": "Телефон"
   },
   "education": {
-    "institution": "Moscow State Open University",
+    "institution": "Московский Государственный Открытый Университет",
     "start-year": "2002",
     "finish-year": "2008",
-    "degree": "Master's Degree",
-    "specialization": "Computer Science"
+    "degree": "",
+    "specialization": "Управление и информатика в технических системах"
   },
   "areas-of-expertise": {
-    "title": "AREAS OF EXPERTISE"
+    "title": "КЛЮЧЕВЫЕ НАВЫКИ"
   },
   "experience": {
-    "title": "Experience",
+    "title": "Опыт работы",
     "jobs": [
       {
-        "position": "Senior Software Engineer",
+        "position": "Старший программист",
         "company": "PosiTrace (Global Fleet Management)",
         "start-year": "2024",
-        "start-month": "January",
+        "start-month": "Январь",
         "finish-year": "2024",
-        "finish-month": "June",
+        "finish-month": "Июнь",
         "responsibilities": [
-          "Magnify and maintain significantly the legacy vehicle tracking and management platform, using Ruby on Rails, Angular, MySQL leading to peak performance.",
-          "Enhance platform reliability by successfully overcoming legacy architectural limitations.",
-          "Strengthen integration and ensuring seamless data flow with the use of third-party systems such as HubSpot, Apollo, and QuickBooks.",
-          "Lead comprehensive testing and quality assurance to deliver robust integrations.",
-          "Deliver expert technical support, effectively resolving issues to ensure uninterrupted and smooth operations.",
-          "Promote ongoing enhancements and a markedly improved user experience by using appropriate documentation procedures and best practices."
+          "Разработка платформы для отслеживания транспортных средств, включающей улучшение производительности и добавление новых функций.",
+          "Работа с легаси-кодом: оптимизация и рефакторинг для улучшения читаемости и поддерживаемости.",
+          "Исправление и актуализация старых тестов, обеспечение их соответствия современным стандартам качества.",
+          "Реализация интеграции со сторонними системами, такими как Apollo, HubSpot и QuickBooks, для расширения функциональности платформы.",
+          "Сотрудничество с командой для выявления и решения технических проблем, а также для внедрения новых идей и подходов."
         ]
       },
       {
-        "position": "Senior Software Engineer",
-        "company": "Uchi.ru (VK.com subsidiary)",
+        "position": "Старший программист",
+        "company": "Учи.ру (Uchi.ru)",
         "start-year": "2022",
-        "start-month": "August",
+        "start-month": "Август",
         "finish-year": "2024",
-        "finish-month": "January",
+        "finish-month": "Январь",
         "responsibilities": [
-          "Improved the functionality and scalability of a large-scale micro services-based online educational platform, playing a pivotal role in the successful development process.",
-          "Refactored the code base extensively which led to performance enhancement and maintainability",
-          "Designed and managed efficient micro services handling diverse product functionalities using Ruby on Rails, PostgreSQL, Apache Kafka, GraphQL, gRPC, Docker, and GitHub Workflow."
-        ]
+          "Участвовал в разработке платформы для онлайн-образования в составе продуктовой команды.",
+          "Оптимизировал и дорабатывал функционал существующих микросервисов, что способствовало повышению производительности и надежности системы.",
+          "Переносил легаси-функционал в новые микросервисы, обеспечивая их совместимость с современными стандартами разработки.",
+          "Переработал сервис миграции классов и приглашений учителей и учеников, улучшив процессы интеграции и взаимодействия пользователей.",
+          "Доработал кабинет учителя в рамках бонусной программы для старшей школы, добавив новые функции и улучшив пользовательский интерфейс."        ]
       },
       {
-        "position": "Lead Software Engineer",
-        "company": "Luxoft (DXC Technology)",
+        "position": "Ведущий программист",
+        "company": "Люксофт",
         "start-year": "2021",
-        "start-month": "June",
+        "start-month": "Июнь",
         "finish-year": "2022",
-        "finish-month": "May",
+        "finish-month": "Май",
         "responsibilities": [
-          "Oversaw the creation of an all-encompassing web system that replaced Atlassian products including Bitbucket, Confluence, and Jira, improving productivity.",
-          "Conducted a thorough analysis to understand business requirements and developed extremely effective development procedures, leading to seamles workflows and quicker project completion.",
-          "Created a proof of concept for the main customer, delivering all initial project phases on time using Atlassian Confluence, Atlassian Jira, GitLab, GitLab CI/CD, GraphQL, PostgreSQL, Ruby, and Ruby on Rails."
+          "Разработка платформы для совместной разработки, аналогичной продуктам Atlassian (Jira, Confluence).",
+          "Платформа включала таск-трекер, хранение репозиториев кода, управление документацией, управление тестированием, выпуск релизов, автоматическое тестирование и деплой.",
+          "Выполнял роль техлида, участвовал в формировании команды, определении архитектуры системы и планировании производственных процессов.",
+          "Непосредственно участвовал в разработке, контролировал процессы разработки, проводил ревью кода и управлял выпуском релизов.",
+          "Обеспечил своевременную поставку готового решения первой фазы на приёмочное тестирование для заказчиков."
         ]
       },
       {
-        "position":"Lead Software Engineer",
-        "company": "Interfax",
+        "position":"Ведущий программист",
+        "company": "Интерфакс",
         "start-year": "2017",
-        "start-month": "February",
+        "start-month": "Февраль",
         "finish-year": "2021",
-        "finish-month": "June",
+        "finish-month": "Июнь",
         "responsibilities": [
-          "Restructured legacy code extensively, improving performance and streamlining workflows to successfully address productivity challenges.",
-          "Championed architectural solutions, oversaw crucial technical choices, and trained junior developers, all of which contributed to the implementation of creative and scalable projects.",
-          "Developed and published Ruby libraries, actively enriching the open-source community and fostering collaborative innovation in software development.",
-          "Utilized technologies like Docker, Elastic Stack, GitLab, Machine Learning, MySQL, PostgreSQL, React, Redis, Ruby, and Ruby on Rails to deliver cutting-edge solutions."
+          "Работа над проектом по оценке качества госуслуг (vashkontrol.ru).",
+          "Основательно реструктурировал унаследованный код, улучшив производительность и оптимизировав рабочие процессы для успешного решения проблем с продуктивностью.",
+          "Разрабатывал архитектурные решения, контролировал важные технические решения и обучал младших разработчиков.",
+          "Разработал библиотеки на Ruby, опубликованные в качестве open-source."
         ]
       },
       {
-        "position": "Lead Software Engineer",
-        "company": "Med-Media",
+        "position": "Ведущий программист",
+        "company": "Мед-Медиа",
         "start-year": "2010",
-        "start-month": "February",
+        "start-month": "Февраль",
         "finish-year": "2017",
-        "finish-month": "February",
+        "finish-month": "Февраль",
         "responsibilities": [
-          "Effectively reverse engineered medportal.ru to create a proprietary in-house codebase, allowing a smooth transition from a CMS to maximized control and performance.",
-          "Refined platform performance and scalability by leading the creation of robust functionality using PHP and MySQL, followed by a transfer to Ruby on Rails with PostgreSQL.",
-          "Guided project development and technical decision-making to closely match company aims and guarantee the accomplishment of important strategic objectives."
+          "Полный цикл разработки и поддержки сайтов медицинской тематики: medportal.ru, doktor.ru, mama.ru.",
+          "Перезапуск medportal.ru сначала на PHP-фреймворке собственной разработки, затем на Ruby on Rails. В процессе работы данные переносились из MySQL в PostgreSQL с одновременной оптимизацией.",
+          "Перезапуск doktor.ru сначала на PHP-фреймворке собственной разработки, затем на Ruby on Rails. Данные переносились из MySQL в PostgreSQL с параллельной оптимизацией.",
+          "Перезапуск трёх сайтов в составе распределённой системы с использованием Ruby on Rails для backend и AngularJS для frontend."
         ]
       },
       {
-        "position": "Lead Software Engineer",
-        "company": "Maxwell Capital LLC",
+        "position": "Ведущий программист",
+        "company": "Максвелл Капитал",
         "start-year": "2006",
-        "start-month": "May",
+        "start-month": "Май",
         "finish-year": "2010",
-        "finish-month": "January",
+        "finish-month": "Январь",
         "responsibilities": [
-          "Engineered a tailored back-office software solution for investment and brokerage firms leveraging C# .NET and MS SQL, delivering unparalleled efficiency and functionality.",
-          "Advanced smooth cooperation and company expansion by overseeing and carrying out the full project lifecycle, including the creation of a corresponding website to support a large network of partners using ASP.NET."
+          "Руководство проектами: работа с заказчиком, разработка архитектуры, функционала, организация процесса разработки, реализация функционала, поддержка.",
+          "Разработка интерактивной системы приёма документов онлайн от партнёров и филиалов с использованием электронной цифровой подписи. Платформа: ASP .NET (C#), MSSQL 2005.",
+          "Разработка бэк-офис системы для инвестиционной компании. Платформа: Delphi, ASP .NET, MSSQL 2005.",
+          "Разработка бэк-офис системы для управляющей компании. Платформа: .NET, Delphi, MSSQL 2005."
         ]
       },
       {
-        "position": "Software Engineer",
-        "company": "Mobinetix",
+        "position": "Программист",
+        "company": "Мобинетикс",
         "start-year": "2003",
         "start-month": "October",
         "finish-year": "2006",
         "finish-month": "May",
         "responsibilities": [
-          "Developed a cutting-edge car tracking and monitoring system that includes robust server-side apps written in C#.NET and a Java ME application for mobile devices, improving operational efficiency and real-time tracking capabilities."
+          "Участвовал в разработке и поддержке передовой системы отслеживания и мониторинга автомобилей (www.amicusvms.com).",
+          "Проектирование, разработка, тестирование и отладка отказоустойчивых серверных приложений на C#.NET.",
+          "Разработка отказоустойчивых приложений для мобильных устройств с использованием Java ME, осуществляющих сбор и передачу данных по беспроводным каналам связи GSM и GPRS.",
+          "Интерфейс для записи и получения данных в СУБД.",
+          "Резервный сервис управления устройствами по протоколу SMS."
         ]
       },
       {
-        "position": "Software Engineer",
-        "company": "Infolink",
+        "position": "Программист",
+        "company": "Инфолинк",
         "start-year": "1998",
         "start-month": "August",
         "finish-year": "2003",
         "finish-month": "August",
         "responsibilities": [
-          "Increased operational efficiency and reduced manual workload, automating critical business processes with C++ and Shell Scripting, optimizing the management of paging communication equipment, customer databases, and ISP services."
+          "Разработка и поддержка корпоративного программного обеспечения для коммуникаций, включая системы оповещения, предоставление интернета и IP-телефонию.",
+          "Адаптация программного обеспечения для оповещения (отправка беспроводных сообщений, биллинг, управление сетью) под нужды компании. Инструменты: Borland C++ Builder, Borland Delphi, Interbase.",
+          "Проектирование и поддержка корпоративных веб-сайтов. Инструменты: PHP, Perl.",
+          "Администрирование корпоративной сети и серверных компьютеров. Операционные системы: FreeBSD, Windows 2000 Server.",
+          "Обучение персонала."
         ]
       },
       {
-        "position": "Database Administrator",
-        "company": "Mobil Telekom",
+        "position": "Администратор баз данных",
+        "company": "Мобил Телеком",
         "start-year": "1998",
         "start-month": "January",
         "finish-year": "1998",
         "finish-month": "June",
         "responsibilities": [
-          "Ensured high availability and reliability by expertly administering and maintaining client databases and paging communication equipment."
+          "Администрирование баз данных, пейджингового оборудования и коммуникационного программного обеспечения."
         ]
       },
       {
-        "position": "Laboratory Assistant",
-        "company": "Chuvash State University",
+        "position": "Лаборант",
+        "company": "Чувашский Государственный Университет",
         "start-year": "1997",
         "start-month": "January",
         "finish-year": "1997",
         "finish-month": "June",
         "responsibilities": [
-          "Guaranteed optimal performance of laboratory equipment through meticulous maintenance and delivered expert technical support."
+          "Обслуживание лабораторного оборудования, техническая поддержка."
         ]
       }
     ]
