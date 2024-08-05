@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Denis Kiselyov -- Resume",
-    "description": "Description"
+    "description": "Experienced senior software engineer with extensive experience in developing and supporting complex systems. Specialization: C#.NET, C++, PHP, Ruby on Rails, MSSQL, PostgreSQL, MySQL, Apache Kafka, Java. Participated in the development of vehicle tracking and monitoring systems, corporate communication solutions, online educational platforms, and web applications. Led projects, optimized and refactored legacy code, and integrated third-party systems."
   },
   "cv-header": {
     "name": "Denis Kiselyov"
@@ -9,6 +9,10 @@
   "contacts": {
     "phone": "+66 61 265 9475",
     "phoneLabel": "Phone"
+  },
+  "profile": {
+    "title": "PROFILE SUMMARY",
+    "content": "Accomplished and versatile Lead Software Developer with 20+ years of unparalleled expertise in architecting, developing, and maintaining cuttingedge web applications. Demonstrates exceptional proficiency in modern programming languages and frameworks, including Ruby on Rails, C# .NET, and Java, consistently delivering high-performance solutions that exceed expectations in both professional and personal projects. A relentless learner and technology enthusiast, recognized for tackling complex challenges, spearheading high-performing teams, and significantly boosting product performance. Expert in financial instruments, trading workflows, and complex system integrations. Adept at driving technological innovation, enhancing efficiency, and aligning solutions with strategic business objectives. Ready to lead transformative projects and propel organizations to new heights of success."
   },
   "education": {
     "institution": "Moscow State Open University",

@@ -1,3 +1,5 @@
+"use client";
+
 import AreasOfExpertise from "./areas-of-expertise";
 import Education from "./education";
 import ProfessionalExperience from "./professional-experience";
