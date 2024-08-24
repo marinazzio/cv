@@ -5,9 +5,8 @@ import ProfileSummary from "./profile-summary";
 
 export default function CVBody() {
     return (
-        <div className="mt-6">
+        <div className="col-span-4 sm:col-span-9">
             <ProfileSummary />
-            <AreasOfExpertise />
             <ProfessionalExperience />
             <Education />
         </div>

@@ -8,8 +8,8 @@ export default function ProfessionalExperience() {
     const experience = dictionary["experience"];
 
     return (
-        <section className="mb-6">
-            <h2 className="text-2xl font-semibold border-b-2 border-gray-200 pb-2 mb-4">{experience.title}</h2>
+        <section className="bg-white shadow rounded-lg p-6">
+            <h2 className="text-xl font-bold mt-6 mb-4">{experience.title}</h2>
             {experience.jobs.map((job: any, index: number) => (
                 <Job key={index} job={job} />
             ))}
