@@ -6,11 +6,12 @@ import CvBody from "./components/cv-body";
 import { DictionaryProvider } from "../providers/dictionary-provider";
 
 export default async function IndexPage({
-  params: { lang },
+  params,
 }: {
-  params: { lang: Locale };
+  params: Promise<{ lang: string }>;
 }) {
-  const dictionary = await getDictionary(lang);
+  const { lang } = await params;
+  const dictionary = await getDictionary(lang as Locale);
 
   return (
     <DictionaryProvider dictionary={dictionary}>

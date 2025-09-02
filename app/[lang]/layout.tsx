@@ -11,18 +11,20 @@ export default async function Root({
   params,
 }: {
   children: React.ReactNode;
-  params: { lang: Locale };
+  params: Promise<{ lang: string }>;
 }) {
+  const { lang } = await params;
 
   return (
-    <html lang={params.lang}>
+    <html lang={lang}>
       <body>{children}</body>
     </html>
   );
 }
 
-export async function generateMetadata({ params }: { params: { lang: Locale } }) {
-  const dictionary = await getDictionary(params.lang);
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
+  const { lang } = await params;
+  const dictionary = await getDictionary(lang as Locale);
 
   return {
     title: dictionary["meta"].title,
