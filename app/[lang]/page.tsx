@@ -5,11 +5,13 @@ import CvHeader from "./components/cv-header";
 import CvBody from "./components/cv-body";
 import { DictionaryProvider } from "../providers/dictionary-provider";
 
+interface Props {
+  params: Promise<{ lang: string }>;
+}
+
 export default async function IndexPage({
   params,
-}: {
-  params: Promise<{ lang: string }>;
-}) {
+}: Props) {
   const { lang } = await params;
   const dictionary = await getDictionary(lang as Locale);
 

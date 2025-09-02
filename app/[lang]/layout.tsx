@@ -6,13 +6,15 @@ export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }));
 }
 
+interface Props {
+  children: React.ReactNode;
+  params: Promise<{ lang: string }>;
+}
+
 export default async function Root({
   children,
   params,
-}: {
-  children: React.ReactNode;
-  params: Promise<{ lang: string }>;
-}) {
+}: Props) {
   const { lang } = await params;
 
   return (
