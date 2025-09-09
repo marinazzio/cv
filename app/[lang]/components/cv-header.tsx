@@ -13,7 +13,7 @@ export default function CvHeader() {
     const dictionary = useDictionary() as any;
 
     return (
-        <header className="text-center py-10 bg-blue-600 text-white">
+        <header className="text-center py-10 theme-primary theme-primary-text">
             <h1 className="text-4xl font-light">{dictionary["cv-header"].name}</h1>
             <p className="mt-2">
                 <EMail /> | <Phone /> | <LinkedIn />

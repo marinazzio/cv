@@ -1,5 +1,6 @@
 import { getDictionary } from "@/get-dictionary";
 import { i18n, type Locale } from "../../i18n-config";
+import { ThemeProvider } from "../providers/theme-provider";
 import "@/global.css";
 
 export async function generateStaticParams() {
@@ -19,7 +20,11 @@ export default async function Root({
 
   return (
     <html lang={lang}>
-      <body>{children}</body>
+      <body>
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
