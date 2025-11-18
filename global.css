@@ -6,6 +6,16 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  
+  /* Theme variables - defaults */
+  --color-primary: #2563eb;
+  --color-primary-text: #ffffff;
+  --color-secondary: #e5e7eb;
+  --color-secondary-text: #374151;
+  --color-background: #ffffff;
+  --color-text: #1f2937;
+  --color-border: #d1d5db;
+  --color-accent: #3b82f6;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,5 +39,28 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  
+  /* Theme utility classes */
+  .theme-primary {
+    background-color: var(--color-primary);
+  }
+  .theme-primary-text {
+    color: var(--color-primary-text);
+  }
+  .theme-secondary {
+    background-color: var(--color-secondary);
+  }
+  .theme-secondary-text {
+    color: var(--color-secondary-text);
+  }
+  .theme-text {
+    color: var(--color-text);
+  }
+  .theme-border {
+    border-color: var(--color-border);
+  }
+  .theme-accent {
+    color: var(--color-accent);
   }
 }

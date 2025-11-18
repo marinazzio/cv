@@ -3,6 +3,7 @@ import { Locale } from "@/i18n-config";
 
 import CvHeader from "./components/cv-header";
 import CvBody from "./components/cv-body";
+import ThemeSwitcher from "./components/theme-switcher";
 import { DictionaryProvider } from "../providers/dictionary-provider";
 
 interface Props {
@@ -18,6 +19,7 @@ export default async function IndexPage({
   return (
     <DictionaryProvider dictionary={dictionary}>
       <main className="container mx-auto px-4">
+        <ThemeSwitcher />
         <CvHeader />
         {/* <LanguageSwitcher hideBlock={true} /> */}
         <CvBody />
