@@ -1,4 +1,6 @@
-import "server-only";
+// import "server-only";
+"use server";
+
 import type { Locale } from "./i18n-config";
 
 // We enumerate all dictionaries here for better linting and typescript support

@@ -31,3 +31,9 @@ body {
     text-wrap: balance;
   }
 } */
+
+@layer utilities {
+  body {
+    @apply min-h-screen bg-gradient-to-br from-purple-200 to-slate-300;
+  }
+}

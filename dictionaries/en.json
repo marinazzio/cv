@@ -4,11 +4,63 @@
     "description": "Description"
   },
   "cv-header": {
-    "name": "Denis Kiselyov"
+    "name": "Denis Kiselyov",
+    "title": "Lead / Senior Software Engineer"
+  },
+  "about": {
+    "title": "ABOUT ME"
   },
   "contacts": {
+    "title": "CONTACTS",
     "phone": "+66 61 265 9475",
-    "phoneLabel": "Phone"
+    "phoneLabel": "Phone",
+    "items": [
+      {
+        "title": "Email",
+        "value": "denis.kiselyov@gmail.com",
+        "icon": "email"
+      },
+      {
+        "title": "Phone",
+        "value": "+66 61 265 9475",
+        "icon": "phone"
+      },
+      {
+        "title": "Line",
+        "value": "marinazzio",
+        "icon": "line"
+      },
+      {
+        "title": "WhatsApp",
+        "value": "+66612659475",
+        "icon": "whatsapp"
+      },
+      {
+        "title": "Skype",
+        "value": "denis.kiselyov",
+        "icon": "skype"
+      },
+      {
+        "title": "Telegram",
+        "value": "@marinazzio",
+        "icon": "telegram"
+      }
+    ]
+  },
+  "socials": {
+    "title": "SOCIALS",
+    "items": [
+      {
+        "title": "LinkedIn",
+        "value": "https://www.linkedin.com/in/denis-kiselyov-9b1b1b1b1/",
+        "icon": "linkedin"
+      },
+      {
+        "title": "GitHub",
+        "value": "https://github.com/marinazzio",
+        "icon": "github"
+      }
+    ]
   },
   "education": {
     "institution": "Moscow State Open University",
@@ -22,7 +74,7 @@
   },
   "experience": {
     "title": "Experience",
-    "jobs": [
+    "items": [
       {
         "position": "Senior Software Engineer",
         "company": "PosiTrace (Global Fleet Management)",
