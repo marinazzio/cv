@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "0.2.32",
-    "@ironsoftware/ironpdf": "^2024.7.1",
+    "@ironsoftware/ironpdf": "^2026.6.1",
     "@types/tailwindcss": "^3.1.0",
     "negotiator": "0.6.3",
     "next": "^16.2.6",
