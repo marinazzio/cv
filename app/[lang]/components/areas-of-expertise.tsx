@@ -11,8 +11,8 @@ export default function AreasOfExpertise() {
         <section className="mt-6">
             <h2 className="text-2xl font-semibold theme-border pb-2 mb-4 border-b-2">{dictionary["areas-of-expertise"].title}</h2>
             <ul className="theme-secondary theme-secondary-text p-4 rounded">
-                {areas.map((expertise: string, index: number) => (
-                    <li key={index}>{expertise}</li>
+                {areas.map((expertise: string) => (
+                    <li key={expertise}>{expertise}</li>
                 ))}
             </ul>
         </section>

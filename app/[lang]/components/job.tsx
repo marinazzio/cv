@@ -14,8 +14,8 @@ export default function Job({ job }: { job: JobEntry }) {
             <p>{startMonth} {job["start-year"]} &mdash; {finishMonth} {job["finish-year"]}</p>
             <ul className="list-disc list-inside">
                 {
-                    job.responsibilities.map((responsibility: string, index: number) => (
-                        <li key={index}>{responsibility}</li>
+                    job.responsibilities.map((responsibility: string) => (
+                        <li key={responsibility}>{responsibility}</li>
                     ))
                 }
             </ul>
