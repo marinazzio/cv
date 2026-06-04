@@ -10,7 +10,7 @@
     "@formatjs/intl-localematcher": "0.8.9",
     "@ironsoftware/ironpdf": "^2026.6.1",
     "@types/tailwindcss": "^3.1.0",
-    "negotiator": "0.6.3",
+    "negotiator": "1.0.0",
     "next": "^16.2.6",
     "puppeteer": "^25.1.0",
     "react": "^19.2.5",
