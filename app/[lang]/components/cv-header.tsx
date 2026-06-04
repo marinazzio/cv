@@ -5,10 +5,6 @@ import Phone from "./phone";
 import LinkedIn from "./linked-in";
 import { useDictionary } from "@/app/providers/dictionary-provider";
 
-// import dynamic from "next/dynamic";
-
-// const DownloadPdf = dynamic(() => import("./download-pdf"), { ssr: false });
-
 export default function CvHeader() {
     const dictionary = useDictionary() as any;
 
@@ -18,9 +14,6 @@ export default function CvHeader() {
             <p className="mt-2">
                 <EMail /> | <Phone /> | <LinkedIn />
             </p>
-            {/* <div className="mt-4">
-                <DownloadPdf />
-            </div> */}
         </header>
     );
 }
