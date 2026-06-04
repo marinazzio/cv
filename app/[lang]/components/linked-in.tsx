@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useDictionary } from "@/app/providers/dictionary-provider";
 
 export default function LinkedIn() {
-    const dictionary = useDictionary() as any;
+    const dictionary = useDictionary();
     const linkedIn = strings["contacts"].linkedIn;
     const label = dictionary["contacts"].linkedInLabel;
 

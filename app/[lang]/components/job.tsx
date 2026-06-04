@@ -1,10 +1,11 @@
 import { useDictionary } from "@/app/providers/dictionary-provider";
+import type { JobEntry } from "@/app/types/dictionary";
 
-export default function Job({ job }: { job: any }) {
-    const dictionary = useDictionary() as any;
+export default function Job({ job }: { job: JobEntry }) {
+    const dictionary = useDictionary();
     const months = dictionary["months"];
-    const startMonth = months[job["start-month"]];
-    const finishMonth = months[job["finish-month"]];
+    const startMonth = months[job["start-month"] as keyof typeof months];
+    const finishMonth = months[job["finish-month"] as keyof typeof months];
 
     return (
         <div className="bg-gray-200 p-4 rounded mb-4">
