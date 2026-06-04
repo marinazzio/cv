@@ -3,7 +3,7 @@
 import { useDictionary } from "@/app/providers/dictionary-provider";
 
 export default function ProfileSummary() {
-    const dictionary = useDictionary() as any;
+    const dictionary = useDictionary();
     const { title, summary } = dictionary["profile-summary"];
 
     return (

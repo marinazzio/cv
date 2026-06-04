@@ -6,7 +6,7 @@ import LinkedIn from "./linked-in";
 import { useDictionary } from "@/app/providers/dictionary-provider";
 
 export default function CvHeader() {
-    const dictionary = useDictionary() as any;
+    const dictionary = useDictionary();
 
     return (
         <header className="text-center py-10 theme-primary theme-primary-text">

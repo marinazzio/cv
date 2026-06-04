@@ -3,7 +3,7 @@
 import { useDictionary } from "@/app/providers/dictionary-provider";
 
 export default function Education() {
-    const dictionary = useDictionary() as any;
+    const dictionary = useDictionary();
 
     return (
         <section className="mb-6">

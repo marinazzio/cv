@@ -2,7 +2,7 @@ import { useDictionary } from "@/app/providers/dictionary-provider";
 import Link from "next/link";
 
 export default function Phone() {
-    const dictionary = useDictionary() as any;
+    const dictionary = useDictionary();
 
     const phone = dictionary["contacts"].phone;
     const phoneLabel = dictionary["contacts"].phoneLabel;

@@ -6,7 +6,7 @@ import { useDictionary } from "@/app/providers/dictionary-provider";
 
 export default function ThemeSwitcher() {
   const { currentTheme, setTheme, availableThemes } = useTheme();
-  const dictionary = useDictionary() as any;
+  const dictionary = useDictionary();
 
   return (
     <div className="mb-4 p-4 bg-white border rounded-lg shadow-sm">

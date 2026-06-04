@@ -4,7 +4,7 @@ import strings from "@/dictionaries/common.json"
 import { useDictionary } from "@/app/providers/dictionary-provider";
 
 export default function AreasOfExpertise() {
-    const dictionary = useDictionary() as any;
+    const dictionary = useDictionary();
     const areas = strings["areas-of-expertise"];
 
     return (

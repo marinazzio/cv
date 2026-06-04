@@ -4,7 +4,7 @@ import { useDictionary } from "@/app/providers/dictionary-provider";
 // import CopyToClipboard from "./copy-to-clipboard";
 
 export default function EMail() {
-    const dictionary = useDictionary() as any;
+    const dictionary = useDictionary();
     const email = strings["contacts"].email;
     const label = dictionary["contacts"].emailLabel;
 
