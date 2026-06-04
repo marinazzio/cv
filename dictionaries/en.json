@@ -8,14 +8,17 @@
   },
   "contacts": {
     "phone": "+66 61 265 9475",
-    "phoneLabel": "Phone"
+    "phoneLabel": "Phone",
+    "emailLabel": "E-Mail",
+    "linkedInLabel": "LinkedIn"
   },
   "education": {
     "institution": "Moscow State Open University",
     "start-year": "2002",
     "finish-year": "2008",
     "degree": "Master's Degree",
-    "specialization": "Computer Science"
+    "specialization": "Computer Science",
+    "title": "Education"
   },
   "areas-of-expertise": {
     "title": "AREAS OF EXPERTISE"
@@ -27,9 +30,9 @@
         "position": "Senior Software Engineer",
         "company": "PosiTrace (Global Fleet Management)",
         "start-year": "2024",
-        "start-month": "January",
+        "start-month": "january",
         "finish-year": "2024",
-        "finish-month": "June",
+        "finish-month": "june",
         "responsibilities": [
           "Magnify and maintain significantly the legacy vehicle tracking and management platform, using Ruby on Rails, Angular, MySQL leading to peak performance.",
           "Enhance platform reliability by successfully overcoming legacy architectural limitations.",
@@ -43,9 +46,9 @@
         "position": "Senior Software Engineer",
         "company": "Uchi.ru (VK.com subsidiary)",
         "start-year": "2022",
-        "start-month": "August",
+        "start-month": "august",
         "finish-year": "2024",
-        "finish-month": "January",
+        "finish-month": "january",
         "responsibilities": [
           "Improved the functionality and scalability of a large-scale micro services-based online educational platform, playing a pivotal role in the successful development process.",
           "Refactored the code base extensively which led to performance enhancement and maintainability",
@@ -56,9 +59,9 @@
         "position": "Lead Software Engineer",
         "company": "Luxoft (DXC Technology)",
         "start-year": "2021",
-        "start-month": "June",
+        "start-month": "june",
         "finish-year": "2022",
-        "finish-month": "May",
+        "finish-month": "may",
         "responsibilities": [
           "Oversaw the creation of an all-encompassing web system that replaced Atlassian products including Bitbucket, Confluence, and Jira, improving productivity.",
           "Conducted a thorough analysis to understand business requirements and developed extremely effective development procedures, leading to seamles workflows and quicker project completion.",
@@ -66,12 +69,12 @@
         ]
       },
       {
-        "position":"Lead Software Engineer",
+        "position": "Lead Software Engineer",
         "company": "Interfax",
         "start-year": "2017",
-        "start-month": "February",
+        "start-month": "february",
         "finish-year": "2021",
-        "finish-month": "June",
+        "finish-month": "june",
         "responsibilities": [
           "Restructured legacy code extensively, improving performance and streamlining workflows to successfully address productivity challenges.",
           "Championed architectural solutions, oversaw crucial technical choices, and trained junior developers, all of which contributed to the implementation of creative and scalable projects.",
@@ -83,9 +86,9 @@
         "position": "Lead Software Engineer",
         "company": "Med-Media",
         "start-year": "2010",
-        "start-month": "February",
+        "start-month": "february",
         "finish-year": "2017",
-        "finish-month": "February",
+        "finish-month": "february",
         "responsibilities": [
           "Effectively reverse engineered medportal.ru to create a proprietary in-house codebase, allowing a smooth transition from a CMS to maximized control and performance.",
           "Refined platform performance and scalability by leading the creation of robust functionality using PHP and MySQL, followed by a transfer to Ruby on Rails with PostgreSQL.",
@@ -96,9 +99,9 @@
         "position": "Lead Software Engineer",
         "company": "Maxwell Capital LLC",
         "start-year": "2006",
-        "start-month": "May",
+        "start-month": "may",
         "finish-year": "2010",
-        "finish-month": "January",
+        "finish-month": "january",
         "responsibilities": [
           "Engineered a tailored back-office software solution for investment and brokerage firms leveraging C# .NET and MS SQL, delivering unparalleled efficiency and functionality.",
           "Advanced smooth cooperation and company expansion by overseeing and carrying out the full project lifecycle, including the creation of a corresponding website to support a large network of partners using ASP.NET."
@@ -108,9 +111,9 @@
         "position": "Software Engineer",
         "company": "Mobinetix",
         "start-year": "2003",
-        "start-month": "October",
+        "start-month": "october",
         "finish-year": "2006",
-        "finish-month": "May",
+        "finish-month": "may",
         "responsibilities": [
           "Developed a cutting-edge car tracking and monitoring system that includes robust server-side apps written in C#.NET and a Java ME application for mobile devices, improving operational efficiency and real-time tracking capabilities."
         ]
@@ -119,9 +122,9 @@
         "position": "Software Engineer",
         "company": "Infolink",
         "start-year": "1998",
-        "start-month": "August",
+        "start-month": "august",
         "finish-year": "2003",
-        "finish-month": "August",
+        "finish-month": "august",
         "responsibilities": [
           "Increased operational efficiency and reduced manual workload, automating critical business processes with C++ and Shell Scripting, optimizing the management of paging communication equipment, customer databases, and ISP services."
         ]
@@ -130,9 +133,9 @@
         "position": "Database Administrator",
         "company": "Mobil Telekom",
         "start-year": "1998",
-        "start-month": "January",
+        "start-month": "january",
         "finish-year": "1998",
-        "finish-month": "June",
+        "finish-month": "june",
         "responsibilities": [
           "Ensured high availability and reliability by expertly administering and maintaining client databases and paging communication equipment."
         ]
@@ -141,13 +144,34 @@
         "position": "Laboratory Assistant",
         "company": "Chuvash State University",
         "start-year": "1997",
-        "start-month": "January",
+        "start-month": "january",
         "finish-year": "1997",
-        "finish-month": "June",
+        "finish-month": "june",
         "responsibilities": [
           "Guaranteed optimal performance of laboratory equipment through meticulous maintenance and delivered expert technical support."
         ]
       }
     ]
+  },
+  "profile-summary": {
+    "title": "PROFILE SUMMARY",
+    "summary": "Accomplished and versatile Lead Software Developer with 20+ years of unparalleled expertise in architecting, developing, and maintaining cutting-edge web applications. Demonstrates exceptional proficiency in modern programming languages and frameworks, including Ruby on Rails, C# .NET, and Java, consistently delivering high-performance solutions that exceed expectations in both professional and personal projects. A relentless learner and technology enthusiast, recognized for tackling complex challenges, spearheading high-performing teams, and significantly boosting product performance. Expert in financial instruments, trading workflows, and complex system integrations. Adept at driving technological innovation, enhancing efficiency, and aligning solutions with strategic business objectives. Ready to lead transformative projects and propel organizations to new heights of success."
+  },
+  "theme-switcher": {
+    "title": "Theme"
+  },
+  "months": {
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December"
   }
 }

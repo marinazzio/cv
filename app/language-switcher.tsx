@@ -1,4 +1,3 @@
-import ButtonWithRedirectToLocale from "@/app/button-with-redirect-to-locale";
 import Link from "next/link";
 
 export default function LanguageSwitcher() {
