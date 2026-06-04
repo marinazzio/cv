@@ -54,13 +54,9 @@ jobs:
           node-version: "22"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
       - name: Setup Pages
+        # basePath/assetPrefix and image unoptimization are managed in
+        # next.config.js, so static_site_generator injection is not used.
         uses: actions/configure-pages@v6
-        with:
-          # Automatically inject basePath in your Next.js configuration file and disable
-          # server side image optimization (https://nextjs.org/docs/api-reference/next/image#unoptimized).
-          #
-          # You may remove this line if you want to manage the configuration yourself.
-          static_site_generator: next
       - name: Restore cache
         uses: actions/cache@v5
         with:
@@ -76,8 +72,9 @@ jobs:
       - name: Build with Next.js
         env:
           NODE_ENV: production
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          PATH_PREFIX: /${{ github.repository }}
+          # Project pages serve at <owner>.github.io/<repo>/, so the prefix is
+          # the repo name only (/cv) — not /<owner>/<repo>.
+          PATH_PREFIX: /${{ github.event.repository.name }}
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
