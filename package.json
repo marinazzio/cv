@@ -11,7 +11,7 @@
     "@ironsoftware/ironpdf": "^2026.6.1",
     "@types/tailwindcss": "^3.1.0",
     "negotiator": "1.0.0",
-    "next": "^16.2.6",
+    "next": "^16.2.7",
     "puppeteer": "^25.1.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.5",
