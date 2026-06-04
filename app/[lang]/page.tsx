@@ -21,7 +21,6 @@ export default async function IndexPage({
       <main className="container mx-auto px-4">
         <ThemeSwitcher />
         <CvHeader />
-        {/* <LanguageSwitcher hideBlock={true} /> */}
         <CvBody />
       </main>
     </DictionaryProvider>
