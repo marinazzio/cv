@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches-ignore: ["master"] # feature branches; master is covered by deploy
+    branches-ignore: ["master"]
 
 permissions:
   contents: read
