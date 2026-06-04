@@ -24,15 +24,13 @@ interface ThemeProviderProps {
 }
 
 export const ThemeProvider: React.FC<ThemeProviderProps> = ({ children }) => {
-  const [currentThemeId, setCurrentThemeId] = useState<ThemeId>('classic');
-
-  // Load theme from localStorage on mount
-  useEffect(() => {
+  // Read the saved theme during initialization. Guards SSR (no localStorage)
+  // and avoids the classic -> saved flash a mount effect would cause.
+  const [currentThemeId, setCurrentThemeId] = useState<ThemeId>(() => {
+    if (typeof window === 'undefined') return 'classic';
     const savedTheme = localStorage.getItem('cv-theme') as ThemeId;
-    if (savedTheme && themes[savedTheme]) {
-      setCurrentThemeId(savedTheme);
-    }
-  }, []);
+    return savedTheme && themes[savedTheme] ? savedTheme : 'classic';
+  });
 
   // Apply CSS variables when theme changes
   useEffect(() => {
