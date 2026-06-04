@@ -8,14 +8,17 @@
   },
   "contacts": {
     "phone": "+66 61 265 9475",
-    "phoneLabel": "Phone"
+    "phoneLabel": "Phone",
+    "emailLabel": "E-Mail",
+    "linkedInLabel": "LinkedIn"
   },
   "education": {
     "institution": "Moscow State Open University",
     "start-year": "2002",
     "finish-year": "2008",
     "degree": "Master's Degree",
-    "specialization": "Computer Science"
+    "specialization": "Computer Science",
+    "title": "Education"
   },
   "areas-of-expertise": {
     "title": "AREAS OF EXPERTISE"
@@ -149,6 +152,13 @@
         ]
       }
     ]
+  },
+  "profile-summary": {
+    "title": "PROFILE SUMMARY",
+    "summary": "Accomplished and versatile Lead Software Developer with 20+ years of unparalleled expertise in architecting, developing, and maintaining cutting-edge web applications. Demonstrates exceptional proficiency in modern programming languages and frameworks, including Ruby on Rails, C# .NET, and Java, consistently delivering high-performance solutions that exceed expectations in both professional and personal projects. A relentless learner and technology enthusiast, recognized for tackling complex challenges, spearheading high-performing teams, and significantly boosting product performance. Expert in financial instruments, trading workflows, and complex system integrations. Adept at driving technological innovation, enhancing efficiency, and aligning solutions with strategic business objectives. Ready to lead transformative projects and propel organizations to new heights of success."
+  },
+  "theme-switcher": {
+    "title": "Theme"
   },
   "months": {
     "january": "January",
