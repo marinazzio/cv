@@ -2,13 +2,15 @@
 
 import { useTheme } from '../../providers/theme-provider';
 import { ThemeId } from '../../types/theme';
+import { useDictionary } from "@/app/providers/dictionary-provider";
 
 export default function ThemeSwitcher() {
   const { currentTheme, setTheme, availableThemes } = useTheme();
+  const dictionary = useDictionary() as any;
 
   return (
     <div className="mb-4 p-4 bg-white border rounded-lg shadow-sm">
-      <h3 className="text-sm font-medium text-gray-700 mb-2">Theme:</h3>
+      <h3 className="text-sm font-medium text-gray-700 mb-2">{dictionary["theme-switcher"].title}:</h3>
       <div className="flex flex-wrap gap-2">
         {availableThemes.map((theme) => (
           <button
