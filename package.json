@@ -8,7 +8,7 @@
     "test": "node --test"
   },
   "dependencies": {
-    "@formatjs/intl-localematcher": "0.9.0",
+    "@formatjs/intl-localematcher": "0.10.0",
     "negotiator": "1.1.0",
     "next": "^16.4.3",
     "react": "^19.3.0",
